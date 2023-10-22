@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Arimo:wght@400;500&family=Comfortaa:wght@300&family=Kenia&family=M+PLUS+Rounded+1c&family=Metamorphous&family=Young+Serif&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 60px;
+}
+                        /* START NAVBAR  */
+.navbar {
+    background-color: white;
+}
+span {
+    color: #538440;
+}
+.container .navbar-brand.ms-3 {
+    font-family: 'Archivo', sans-serif;
+font-family: 'Arimo', sans-serif;
+font-family: 'Comfortaa', sans-serif;
+font-family: 'Kenia', sans-serif;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+font-family: 'Metamorphous', serif;
+font-family: 'Young Serif', serif;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar-nav {
+    font-size: 18px;
+}
+.nav-link.active:hover {
+    color: green;
+}
